@@ -1,11 +1,18 @@
 import React from 'react';
 
-import {Container} from './styles'
+import {
+  Header,
+  Calculate,
+} from '../../components';
+
+
+import {Container} from './styles';
 
 function Main(){
   return (
     <Container>
-      <h1>Hello Word</h1>
+      <Header />
+      <Calculate />
     </Container>
   );
 }
