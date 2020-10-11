@@ -50,7 +50,7 @@ export const Content = styled.section`
       font-size: 1.4em;
       font-weight: lighter;
       color: ${colors.eightGrey};
-      background-color: ${colors.fadedGrey};
+      background-color: ${colors.greyWhite};
       outline: 1px solid ${colors.darkGrey};
 
     }
