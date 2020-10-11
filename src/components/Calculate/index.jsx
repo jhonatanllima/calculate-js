@@ -9,7 +9,7 @@ import {
 function Calculate(){
   const [number, setNumber] = useState([0]);
 
-  console.log('teste', number)
+  console.log('teste', number);
 
   return (
     <Container>
@@ -19,43 +19,43 @@ function Calculate(){
 
       <Content>
         <div>
-          <button onClick={() => setNumber(7)}> 7 </button>
+          <button type="button" onClick={() => setNumber(7)}> 7 </button>
           
-          <button> 8 </button>
-          <button> 9  </button>
+          <button type="button" onClick={() => setNumber(8)}> 8 </button>
+          <button type="button" onClick={() => setNumber(9)}> 9  </button>
 
           <span>
-            <button onClick={() => setNumber('/')}> /  </button>
+            <button  type="button" onClick={() => setNumber('/')}> /  </button>
           </span>
         </div>  
 
         <div>
-          <button> 4 </button>
-          <button> 5  </button>
-          <button> 6  </button>
+          <button type="button" onClick={() => setNumber(4)}> 4 </button>
+          <button type="button" onClick={() => setNumber(5)}> 5  </button>
+          <button type="button" onClick={() => setNumber(6)}> 6  </button>
 
           <span>
-            <button> x  </button>
+            <button type="button" onClick={() => setNumber('x')}> x  </button>
           </span>
         </div>
 
         <div>
-          <button> 1 </button>
-          <button> 2 </button>
-          <button> 3 </button>
+          <button type="button" onClick={() => setNumber(1)}> 1 </button>
+          <button type="button" onClick={() => setNumber(2)}> 2 </button>
+          <button type="button" onClick={() => setNumber(3)}> 3 </button>
 
           <span>
-            <button> + </button>
+            <button type="button" onClick={() => setNumber('+')}> + </button>
           </span>
         </div>
 
         <div> 
-          <button> . </button>
-          <button> 0 </button>
-          <button> = </button>
+          <button type="button" onClick={() => setNumber('.')}> . </button>
+          <button type="button" onClick={() => setNumber(0)}> 0 </button>
+          <button type="button" onClick={() => setNumber('=')}> = </button>
 
           <span>
-            <button> - </button>
+            <button type="button" onClick={() => setNumber('-')}> - </button>
           </span>
         </div>
       </Content>
