@@ -31,5 +31,7 @@ export default {
   success: 'hsl(141, 71%, 48%)',
   darkSuccess: 'hsl(141, 40%, 48%)',
 
+  orange: '#fe9241',
+
   transparent: 'transparent',
 };
