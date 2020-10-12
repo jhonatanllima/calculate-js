@@ -14,7 +14,7 @@ function Calculate(){
     setNumber(`${number}${value}`)
 
      if (value === 'x' || 'X'){
-      console.log('oia bixo',`${number}${value}` * 3)
+      console.log('oia bixo', number * 2);
     }
   }
 
