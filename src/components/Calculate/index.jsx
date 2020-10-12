@@ -9,17 +9,15 @@ import {
 function Calculate(){
   const [number, setNumber] = useState('');
 
-  console.log('teste', number);
-
+ 
   function handleClick(value){
     setNumber(`${number}${value}`)
 
-    // if (setNumber(`${value}`) === 'x' || 'X'){
-    //   console.log('oia bixo',number * 2)
-    // }
+     if (value === 'x' || 'X'){
+      console.log('oia bixo',`${number}${value}` * 3)
+    }
   }
 
-  console.log(number * 2);
 
   return (
     <Container>
